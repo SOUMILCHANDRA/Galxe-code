@@ -1,0 +1,42 @@
+[
+    {
+        "scheme_id": "SCHEME_001",
+        "name": "PM Kisan Samman Nidhi",
+        "description": "Financial benefit of Rs. 6000 per year to all landholding farmers' families.",
+        "hard_constraints": {
+            "occupation": ["farmer"],
+            "max_income": 300000,
+            "mandatory_documents": ["Aadhaar Card", "Land Holding Papers"]
+        }
+    },
+    {
+        "scheme_id": "SCHEME_002",
+        "name": "Ayushman Bharat PM-JAY",
+        "description": "Health insurance cover of up to Rs. 5 lakhs per family per year for secondary and tertiary care hospitalization.",
+        "hard_constraints": {
+            "max_income": 250000,
+            "mandatory_documents": ["Aadhaar Card", "Ration Card"]
+        }
+    },
+    {
+        "scheme_id": "SCHEME_003",
+        "name": "E-Shram Card",
+        "description": "Database of unorganized workers to provide social security and welfare benefits.",
+        "hard_constraints": {
+            "occupation": ["labour", "unorganized", "vendor", "construction worker", "domestic worker"],
+            "min_age": 16,
+            "max_age": 59,
+            "mandatory_documents": ["Aadhaar Card", "Bank Account"]
+        }
+    },
+    {
+        "scheme_id": "SCHEME_004",
+        "name": "PM Awas Yojana (Urban)",
+        "description": "Housing for all in urban areas. Provides central assistance to urban local bodies.",
+        "hard_constraints": {
+            "location_type": ["urban"],
+            "max_income": 600000,
+            "mandatory_documents": ["Aadhaar Card", "Proof of Income"]
+        }
+    }
+]
