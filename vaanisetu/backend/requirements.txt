@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+redis
+python-dotenv
+sentence-transformers
+chromadb
+faster-whisper
+scikit-learn
+joblib
+pydantic
+httpx
+anthropic
+pytest
